@@ -28,4 +28,11 @@ public class Tasks {
         }
         return "Prime";
     }
+    public int find_factorial(int n){
+        if(n==1)
+            return 1;
+        else
+            return n*find_factorial(n-1);
+    }
+
 }
