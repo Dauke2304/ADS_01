@@ -34,5 +34,13 @@ public class Tasks {
         else
             return n*find_factorial(n-1);
     }
+    public int find_fibonacci(int n){
+        if(n==0)
+            return 0;
+        if(n==1)
+            return 1;
+        else
+            return find_fibonacci(n-1)+find_fibonacci(n-2);
+    }
 
 }

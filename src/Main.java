@@ -5,7 +5,7 @@ public class Main {
     static Tasks task = new Tasks();
     public static void main(String[] args) {
         int n= sc.nextInt();
-        System.out.println(task.find_factorial(n));
+        System.out.println(task.find_fibonacci(n));
 
     }
     public static int[] Create_Arr(int n){
