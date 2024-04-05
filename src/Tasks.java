@@ -18,4 +18,14 @@ public class Tasks {
     public double average_in_array(int[] arr,int n){
         return sum_of_arr(arr,n)/arr.length;
     }
+    public String check_for_prime(int n){
+        int counter=0;
+        for (int i =1;i<=n;i++){
+            if(n%i==0)
+                counter++;
+            if(counter>2)
+                return "Composite";
+        }
+        return "Prime";
+    }
 }

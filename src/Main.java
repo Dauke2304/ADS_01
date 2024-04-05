@@ -5,8 +5,7 @@ public class Main {
     static Tasks task = new Tasks();
     public static void main(String[] args) {
         int n= sc.nextInt();
-        int[] arr=Create_Arr(n);
-        System.out.println(task.average_in_array(arr,arr.length-1));
+        System.out.println(task.check_for_prime(n));
 
     }
     public static int[] Create_Arr(int n){
