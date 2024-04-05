@@ -1,14 +1,12 @@
-import java.sql.Array;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     static Scanner sc = new Scanner(System.in);
-    static First first = new First();
+    static Tasks task = new Tasks();
     public static void main(String[] args) {
         int n= sc.nextInt();
         int[] arr=Create_Arr(n);
-        System.out.println(first.min_in_array(arr,arr.length-1));
+        System.out.println(task.average_in_array(arr,arr.length-1));
 
     }
     public static int[] Create_Arr(int n){
