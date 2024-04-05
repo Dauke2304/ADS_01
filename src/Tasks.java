@@ -42,5 +42,12 @@ public class Tasks {
         else
             return find_fibonacci(n-1)+find_fibonacci(n-2);
     }
-
+    public int find_power(int a,int n){
+        if(n==0)
+            return 1;
+        if(n==1)
+            return a;
+        else
+            return a*find_power(a,n-1);
+    }
 }

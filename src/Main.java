@@ -4,8 +4,9 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
     static Tasks task = new Tasks();
     public static void main(String[] args) {
+        int a =sc.nextInt();
         int n= sc.nextInt();
-        System.out.println(task.find_fibonacci(n));
+        System.out.println(task.find_power(a,n));
 
     }
     public static int[] Create_Arr(int n){
