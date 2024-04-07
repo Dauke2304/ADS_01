@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import static java.lang.Math.min;
 import static java.util.Collections.swap;
 
@@ -64,5 +66,19 @@ public class Tasks {
         int left=0;
         int right=arr.length-1;
         reverse_array_main(arr,left,right);
+    }
+    public boolean Check_for_digit_main(String arr,int n){
+        if(n==0)
+            return Character.isDigit(arr.charAt(0));
+        else
+            return Character.isDigit(arr.charAt(n))&&Check_for_digit_main(arr,n-1);
+    }
+    public void Check_String_For_Digit(String arr){
+        int n = arr.length()-1;
+        boolean check = Check_for_digit_main(arr,n);
+        if(check)
+            System.out.println("Yes");
+        else
+            System.out.println("No");
     }
 }

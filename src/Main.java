@@ -4,10 +4,8 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
     static Tasks task = new Tasks();
     public static void main(String[] args) {
-        int n= sc.nextInt();
-        int[] arr = Create_Arr(n);
-        task.Reverse_Arr(arr);
-        Output_Arr(arr,n);
+        String arr = sc.next();
+        task.Check_String_For_Digit(arr);
 
     }
     public static int[] Create_Arr(int n){
