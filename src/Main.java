@@ -4,8 +4,9 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
     static Tasks task = new Tasks();
     public static void main(String[] args) {
-        String arr = sc.next();
-        task.Check_String_For_Digit(arr);
+        int a = sc.nextInt();
+        int k = sc.nextInt();
+        task.Binomial_coefficient(a,k);
 
     }
     public static int[] Create_Arr(int n){

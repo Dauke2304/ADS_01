@@ -81,5 +81,9 @@ public class Tasks {
         else
             System.out.println("No");
     }
+    public void Binomial_coefficient(int n,int k){
+        int result =  find_factorial(n)/(find_factorial(k)*find_factorial(n-k));
+        System.out.println(result);
+    }
 
 }
