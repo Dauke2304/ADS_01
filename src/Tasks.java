@@ -1,4 +1,5 @@
 import static java.lang.Math.min;
+import static java.util.Collections.swap;
 
 public class Tasks {
     public int min_in_array(int[] arr, int n) {
@@ -49,5 +50,19 @@ public class Tasks {
             return a;
         else
             return a*find_power(a,n-1);
+    }
+    public void reverse_array_main(int[] arr,int left,int right){
+        if(left>=right)
+            return;
+        int temp=arr[left];
+        arr[left]=arr[right];
+        arr[right]=temp;
+
+        reverse_array_main(arr,left+1,right-1);
+    }
+    public void Reverse_Arr(int[] arr){
+        int left=0;
+        int right=arr.length-1;
+        reverse_array_main(arr,left,right);
     }
 }

@@ -4,9 +4,10 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
     static Tasks task = new Tasks();
     public static void main(String[] args) {
-        int a =sc.nextInt();
         int n= sc.nextInt();
-        System.out.println(task.find_power(a,n));
+        int[] arr = Create_Arr(n);
+        task.Reverse_Arr(arr);
+        Output_Arr(arr,n);
 
     }
     public static int[] Create_Arr(int n){
@@ -15,5 +16,10 @@ public class Main {
             arr[i]=sc.nextInt();
         }
         return arr;
+    }
+    public static void Output_Arr(int[] arr,int n){
+        for (int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 }
