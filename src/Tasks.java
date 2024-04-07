@@ -91,5 +91,11 @@ public class Tasks {
         else
             return Binomial_coefficient(n-1,k-1)+Binomial_coefficient(n-1,k);
     }
+    public int GDC(int a,int b){
+        if(b==0)
+            return a;
+        else
+            return GDC(b,a%b);
+    }
 
 }
