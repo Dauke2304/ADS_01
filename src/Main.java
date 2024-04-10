@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int a = sc.nextInt();
         int k = sc.nextInt();
-        System.out.println(task.GDC(a,k));
+        System.out.println(task.GCD(a,k));
 
     }
     public static int[] Create_Arr(int n){

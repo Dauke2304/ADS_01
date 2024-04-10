@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d156b8e9-472d-4743-bb6e-0254db192462" name="Changes" comment="9 task by formula that you gave">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="d156b8e9-472d-4743-bb6e-0254db192462" name="Changes" comment="10 task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,8 @@
       <workItem from="1712297252593" duration="936000" />
       <workItem from="1712298210347" duration="51000" />
       <workItem from="1712298276177" duration="4756000" />
-      <workItem from="1712480988437" duration="5158000" />
+      <workItem from="1712480988437" duration="5191000" />
+      <workItem from="1712740309715" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -166,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712485972026</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="10 task">
+      <option name="closed" value="true" />
+      <created>1712486172737</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712486172737</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,7 @@
     <MESSAGE value="8 task" />
     <MESSAGE value="9 task" />
     <MESSAGE value="9 task by formula that you gave" />
-    <option name="LAST_COMMIT_MESSAGE" value="9 task by formula that you gave" />
+    <MESSAGE value="10 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 task" />
   </component>
 </project>
